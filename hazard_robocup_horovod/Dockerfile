@@ -88,7 +88,7 @@ RUN apt-get install -y --no-install-recommends subversion && \
     rm -rf /examples/.svn
 
 # Download dependencies
-RUN pip3 install pillow \
+RUN pip install pillow \
 		numpy \
 		matplotlib \
 		opencv-python \
