@@ -1,4 +1,4 @@
-FROM docker://nvcr.io/nvidia/tensorflow:19.12-tf1-py3
+FROM nvcr.io/nvidia/tensorflow:19.12-tf1-py3
 
 RUN pip install pillow \
 		numpy \
@@ -7,7 +7,7 @@ RUN pip install pillow \
 		awscli \
 		scikit-image \
 		pyqrcodeng \
- 		pandas \
+		pandas \
 		google_images_download \
 		urllib \
 		argparse \
